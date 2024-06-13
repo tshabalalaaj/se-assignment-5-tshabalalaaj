@@ -181,8 +181,8 @@ Questions:
       - To stop the debugging session, click on the "Stop" button in the toolbar.
 
 10. Using Source Control:
-      !["Git"](./git.png "Git")
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+    !["Git"](./git.png "Git")
       - Open the Git tab (Ctrl + Shift + G).
       - Click on the "Initialize Repository" button.
       - Enter a commit message and click on "Commit".
