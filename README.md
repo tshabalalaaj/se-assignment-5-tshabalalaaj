@@ -30,20 +30,29 @@ Questions:
    - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
 
       - Settings:
-         - Font Settings:
          - Open "Settings" (Ctrl + ,).
-         - Search for "Font Family" and select a font that is easy to read.
-         - Adjust the "Font Size" to your preference.
-         - Enable "Ligatures" for improved code readability.
+         !["settings"](./settings.png "settings")
+
+         - Font Settings:
+            !["fonts settings"](./fonts_settings.png "fonts settings")
+            - Search for "Font Family" and select a font that is easy to read.
+            - Adjust the "Font Size" to your preference.
+            - Enable "Ligatures" for improved code readability.
+            
          - Theme Settings:
-         - Search for "Color Theme" and select a theme that suits your preferences.
-         - Adjust the "Contrast" and "Opacity" settings to improve visibility.
+            !["theme settings"](./theme_settings.png "theme settings")
+            - Search for "Color Theme" and select a theme that suits your preferences.
+            - Adjust the "Contrast" and "Opacity" settings to improve visibility.
+
          - Keyboard Shortcuts:
-         - Search for "Keyboard Shortcuts" and customize shortcuts for frequently used commands.
-         - For example, assign "Ctrl + S" to save files.
+            - Access the "Keyboard Shortcuts" section using ctrl + k ctrl + s.
+            !["shortcuts settings"](./shortcuts_settings.png "shortcuts settings")
+            - Search for "Keyboard Shortcuts" and customize shortcuts for frequently used commands.
+            - For example, assign "Ctrl + S" to save files.
          
       - Install Essential Extensions:
       - Open the "Extensions" tab (Ctrl + Shift + X).
+      !["extensions"](./extensions.png "extensions")
       - Search for and install extensions like:
          - Web Development:
             - ESLint
@@ -73,20 +82,25 @@ Questions:
 3. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
       - Activity Bar:
+         !["Activity bar"](./activity_bar.png "activity bar")
          - Located on the left side of the window.
          - Provides access to common tasks like opening files, searching, and debugging.
       - Side Bar:
+         !["side bar"](./side_bar.png "side bar")
          - Located on the left side of the window, below the Activity Bar.
          - Displays the current project structure, including files and folders.
       - Editor Group:
+         !["editor group"](./editor.png "editor group")
          - Located in the center of the window.
          - Contains the open files and allows you to edit code.
       - Status Bar:
+         !["Status Bar group"](./status_bar.png "Status Bar")
          - Located at the bottom of the window.
          - Displays information about the current file, such as the line number and column number.
 
 4. Command Palette:
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+   !["Command Palette"](./command_palette.png "Command Palette")
    - Command Palette:
          - A tool that allows you to quickly find and execute commands.
          - Accessed using the keyboard shortcut `Ctrl` + `Shift` + `P` (Windows) or `Cmd` + `Shift` + `P` (Mac).
@@ -99,6 +113,7 @@ Questions:
 
 5. Extensions in VS Code:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+   !["extensions"](./extensions.png "extensions")
       - Extensions:
          - Enhance VS Code functionality with additional features and tools.
          - Find extensions:
@@ -119,6 +134,7 @@ Questions:
 
 6. Integrated Terminal:
    - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+   !["Terminal"](./terminal.png "Terminal")
       - Open the integrated terminal:
          - Press `Ctrl` + `\` (Windows) or `Cmd` + `\` (Mac).
       - Advantages of using the integrated terminal:
@@ -143,6 +159,7 @@ Questions:
 
 8. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+   !["settings"](./settings2.png "settings")
       - Open the "Settings" tab (Ctrl + ,).
       - Search for the desired setting, such as "Theme", "Font Size", or "Keybindings".
       - Make the desired changes to the settings.
@@ -164,6 +181,7 @@ Questions:
       - To stop the debugging session, click on the "Stop" button in the toolbar.
 
 10. Using Source Control:
+      !["Git"](./git.png "Git")
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
       - Open the Git tab (Ctrl + Shift + G).
       - Click on the "Initialize Repository" button.
@@ -173,10 +191,4 @@ Questions:
       - Select the remote repository you want to push your changes to and click on "Push".
       - The changes will be pushed to the remote repository.
 
-
- Submission Guidelines:
-- Your answers should be well-structured, concise, and to the point.
-- Provide screenshots or step-by-step instructions where applicable.
-- Cite any references or sources you use in your answers.
-- Submit your completed assignment by 1st July 
 
